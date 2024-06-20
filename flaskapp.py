@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 from wtforms.validators import InputRequired
 import os
 import cv2
-from YOLO import video_detection, detect_descriptions
+from YOLO_Video import video_detection, detect_descriptions
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'ricoprediansyah'
